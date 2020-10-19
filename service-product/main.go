@@ -6,10 +6,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"github.com/rifarihadts/microservice/service-product/config"
+	"github.com/rifarihadts/microservice/service-product/database"
+	"github.com/rifarihadts/microservice/service-product/handler"
 	"github.com/spf13/viper"
-	"github.com/wskurniawan/intro-microservice/service-product/config"
-	"github.com/wskurniawan/intro-microservice/service-product/database"
-	"github.com/wskurniawan/intro-microservice/service-product/handler"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
