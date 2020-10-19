@@ -2,16 +2,15 @@ package main
 
 import (
 	"fmt"
-	"log"
-	"net/http"
-
 	"github.com/gorilla/mux"
+	"github.com/spf13/viper"
 	"github.com/rifarihadts/microservice/service-product/config"
 	"github.com/rifarihadts/microservice/service-product/database"
 	"github.com/rifarihadts/microservice/service-product/handler"
-	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
+	"log"
+	"net/http"
 )
 
 func main() {
